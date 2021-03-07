@@ -1,0 +1,87 @@
+@import url(slider.css);
+@import url(variables.css);
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 940px;
+    margin:auto;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}
+
+.navbar {
+    height: 78px;
+}
+
+.navbar > * { /*обращение к дочерним элементам (div,ul)*/
+    display: inline-block;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    font-weight: 800;
+    float: left;
+    font-size: 0;
+    height: 100%;
+}
+
+.logo > .logo-part {
+    font-size: 25px;
+    display: inline-block;
+    line-height: 78px;
+}
+
+.logo-part:first-of-type {
+    color: var(--primary-color);
+}
+
+.logo-part:last-of-type {
+    color: #f3af9d;
+}
+
+.list {
+    margin-top: 30px;
+    float: right;
+}
+
+.list-item {
+    display:inline-block;/*ширина блока регулируется содержимым*/
+    text-transform: uppercase;/*все заглавные*/
+    font-weight: 700;/*жирность текста*/
+    color: var(--secondary-color);/*наследование текста для неактивного меню*/
+    margin-right: 10px;
+}
+
+.list-item.active {
+    color: var(--primary-color);
+}
+
+.link {
+    color: inherit; /*СЛЕДУЕТ СВОЙСТВАМ РОДИТЕЛЬСКОГО ЭЛЕМЕНТА*/
+    text-decoration: none;
+}
+
+.bar-wrapper {
+    background-color: var(--primary-light-color);
+    height: 60px;
+}
