@@ -1,5 +1,5 @@
+@import url(framework/common.css);
 @import url(slider.css);
-@import url(variables.css);
 @import url(block.css);
 
 li:last-of-type {
@@ -7,27 +7,11 @@ li:last-of-type {
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.clearfix {
-    overflow: auto;
-}
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.container {
-    width: 940px;
-    margin:auto;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
-}
 
 .navbar {
     height: 78px;
