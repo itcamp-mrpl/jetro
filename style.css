@@ -1,5 +1,6 @@
 @import url(slider.css);
 @import url(variables.css);
+@import url(block.css);
 
 li:last-of-type {
     margin-right: 0;
