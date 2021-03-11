@@ -1,9 +1,7 @@
-
 .block-desc {
     padding-top: 40px;
     height: 250px;
 }
-
 
 .block-desc1 {
     display: inline-block; 
@@ -33,14 +31,6 @@
     margin-left: 0px;  
 }
 
-.btn-more {
-    text-transform: uppercase;
-}
-
-.btn-more :hover { /*не получилось изменить кнопку при эфекте наведени*/
-    background-color: #fff;
-    color: var(--primary-color);
-}
 
 .head-block {
     float: left;
@@ -61,38 +51,7 @@
     float: right;
     padding-left: 10px;
 }
- 
-.slider-work:not(:last-of-type) {
-    margin: 15px;
-    margin-left: 0px;
-}
 
-.slider-work {
-    display: inline-block;
-    height: 185px;
-    width:220px;
-    margin-top: 0px;
-}
-
-.head-work {
-    text-transform: uppercase;
-    color: var(--secondary-color);
-    font-size: 16px; 
-    margin-bottom: 0px;
-}
-
-.work-date{
-     color: var(--primary-color);
-     margin-top: 0px;
-    font-weight: 700; 
-}
-
-.border-works{ /*не получается сделать границы*/
-    border-width: 2px;
-    border-color: solid var(--secondary-color);
-    padding-bottom: 20px;
-    height: 50px;
-}
 
 .blocks {
     margin-bottom: 50px;

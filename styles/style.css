@@ -1,4 +1,6 @@
-@import url(framework/common.css);
+@import url(../framework/common.css);
+@import url(button.css);
+@import url(card.css);
 @import url(slider.css);
 @import url(block.css);
 
