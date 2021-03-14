@@ -1,98 +1,10 @@
-.block-desc {
-    padding-top: 40px;
-    height: 250px;
-}
-
-.block-desc1 {
-    display: inline-block; 
-    width: 300px;
-}
-
-.block-desc1:not(:last-of-type) {
-    margin-right: 15px;
-}
-
-.icon {
-    float: left;
-    padding-right: 15px;
-}
-
-.head-desc1 {
-    color: var(--primary-color); 
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: left;
-    margin-top: 0px;
-}
-
-.text-desc1 {
-    font-size: 13px;
-    clear: both;
-    margin-left: 0px;  
-}
-
-
-.head-block {
-    float: left;
-    color: var(--primary-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    clear: both;
-}
-
-.head-works{
+.head-line {
     display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .line {
     float: right;
     padding-left: 10px;
-}
-
-
-.blocks {
-    margin-bottom: 50px;
-}
-
-.footer-data {
-    background-color: var(--primary-color);
-    height: 270px;
-}
-
-.bar-wrapper2 {
-    background-color: var(--primary-light-color);
-    height: 265px;
-}
-
-.about-footer {
-    display: inline-block;
-    height: 180px;
-    width:265px;
-    color:#fff;
-    margin:10px;
-    margin-top: 0px;
-}
-
-.display-footer:not(:last-of-type){
-    margin-right: 30px;
-}
-.display-footer {
-    margin-left: 30px;
-}
-
-.head-data {
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.email-color{
-    color: #f3b29d;
-}
-
-.about-jetro{
-    margin-top: 0px;
-
 }

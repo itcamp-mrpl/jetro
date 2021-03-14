@@ -2,7 +2,9 @@
 @import url(button.css);
 @import url(card.css);
 @import url(slider.css);
+@import url(articles.css);
 @import url(block.css);
+@import url(footer.css);
 
 li:last-of-type {
     margin-right: 0;
@@ -11,9 +13,12 @@ li:last-of-type {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
 
 .navbar {
     height: 78px;
@@ -25,7 +30,6 @@ body {
 
 .logo {
     text-transform: uppercase;
-    font-family: 'roboto', sans-serif;
     font-weight: 800;
     float: left;
     font-size: 0;
@@ -69,6 +73,5 @@ body {
 }
 
 .bar-wrapper {
-    background-color: var(--primary-light-color);
-    height: 60px;
+    /*background-color: var(--primary-light-color);*/
 }

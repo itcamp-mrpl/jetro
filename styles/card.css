@@ -1,13 +1,12 @@
-s.card {
+.card {
     display: inline-block;
-    height: 185px;
     width:220px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .card:not(:last-of-type) {
     margin: 15px;
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 .card-image {
@@ -35,6 +34,6 @@ s.card {
 
 .date-card {
     color: var(--primary-color);
-    margin: 0px;
-    font-weight: 700; 
+    margin: 0;
+    font-weight: 700;
 }

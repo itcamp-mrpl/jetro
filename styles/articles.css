@@ -1,0 +1,44 @@
+.article-list {
+    padding-top: 40px;
+    height: 250px;
+    font-size: 0;
+}
+
+.article-list-row {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.article-list-col {
+    display: inline-block;
+    width: 33.3333%;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+
+.icon {
+    float: left;
+    padding-right: 15px;
+}
+
+.head-desc1 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.text-desc1 {
+    font-size: 13px;
+    clear: both;
+    margin-left: 0px;
+}
+
+
+.head-block {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+}
