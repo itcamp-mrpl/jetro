@@ -1,4 +1,4 @@
-.card {
+s.card {
     display: inline-block;
     height: 185px;
     width:220px;
@@ -21,19 +21,19 @@
     padding: 15px;
     border-style: solid;
     border-width: 1px;
-    border-color: solid var(--secondary-color);
+    border-color: rgba(153, 151, 151, 0.356);
     border-top-color: transparent;
     padding-bottom: 20px;
 }
 
-.head-work {
+.heading-card {
     margin: 0;
     text-transform: uppercase;
     color: var(--secondary-color);
     font-size: 16px;
 }
 
-.work-date {
+.date-card {
     color: var(--primary-color);
     margin: 0px;
     font-weight: 700; 
