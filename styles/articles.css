@@ -25,20 +25,24 @@
 .head-desc1 {
     color: var(--primary-color);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1.6em;
     text-align: left;
     margin-top: 0px;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
 }
 
 .text-desc1 {
-    font-size: 13px;
+    font-size: 1em;
     clear: both;
     margin-left: 0px;
+    font-family: Helvetica, sans-serif;
 }
 
 
 .head-block {
     color: var(--primary-color);
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 1em;
+    padding-top: 45px;
 }

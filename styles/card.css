@@ -5,8 +5,12 @@
 }
 
 .card:not(:last-of-type) {
-    margin: 15px;
+    margin: 10px;
     margin-left: 0;
+}
+
+.cards {
+    margin-bottom: 50px;
 }
 
 .card-image {
@@ -27,13 +31,17 @@
 
 .heading-card {
     margin: 0;
-    text-transform: uppercase;
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 1.125em;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    
 }
 
 .date-card {
     color: var(--primary-color);
     margin: 0;
-    font-weight: 700;
+    font-size: 1.125em;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal; 
 }

@@ -20,7 +20,7 @@
     bottom: 36px;
     left: 36px;
     padding: 20px;
-    font-size: 12px;
+    font-size: 1em;
     color: #fff;
     width: 410px;
     background-color: rgba(232, 102, 60, 0.8);
@@ -30,12 +30,15 @@
     margin: 0;
     left: 36px;
     bottom: 36px;
-    font-size: 18px;
+    font-size: 1.3em;
     line-height: 1.2;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
 }
 
 .slide-text {
-    font-size: 14px;
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
 }
 
 .slider-thumbs {
