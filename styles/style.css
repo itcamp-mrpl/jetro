@@ -1,0 +1,83 @@
+@import url(../framework/common.css);
+@import url(button.css);
+@import url(card.css);
+@import url(slider.css);
+@import url(articles.css);
+@import url(block.css);
+@import url(footer.css);
+
+li:last-of-type {
+    margin-right: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 78px;
+}
+
+.navbar > * { /*обращение к дочерним элементам (div,ul)*/
+    display: inline-block;
+}
+
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    float: left;
+    font-size: 0;
+    height: 100%;
+}
+
+.logo > .logo-part {
+    display: inline-block;
+    line-height: 78px;
+}
+
+.logo-part:first-of-type {
+    color: var(--primary-color);
+    font-size: 36px;
+}
+
+.logo-part:last-of-type {
+    color: #f3af9d;
+    font-size: 36px;
+}
+
+.list {
+    margin-top: 30px;
+    float: right;
+}
+
+.list-item {
+    display:inline-block;/*ширина блока регулируется содержимым*/
+    text-transform: uppercase;/*все заглавные*/
+
+    color: var(--secondary-color);/*наследование текста для неактивного меню*/
+    margin-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2em;
+}
+
+.list-item.active {
+    color: var(--primary-color);
+    font-family: 'Bebas Neue', cursive;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bar-wrapper {
+    background-color: var(--primary-light-color);
+    height: 60px;
+}

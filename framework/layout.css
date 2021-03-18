@@ -1,0 +1,16 @@
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 940px;
+    margin:auto;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+}

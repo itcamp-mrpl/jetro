@@ -1,0 +1,8 @@
+.btn-more {
+    text-transform: uppercase;
+}
+
+.btn-more :hover { /*не получилось изменить кнопку при эфекте наведени*/
+    background-color: #fff;
+    color: var(--primary-color);
+}

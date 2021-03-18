@@ -1,0 +1,50 @@
+.footer-row {
+    font-size: 0;
+    background-color: var(--primary-color);
+}
+
+.footer-col {
+    display: inline-block;
+    font-size: 0.75em;
+    width: 33.333%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.bar-wrapper-height {
+    background-color: var(--primary-light-color);
+}
+
+.about-footer {
+    display: inline-block;
+    height: 180px;
+    width:265px;
+    color:#fff;
+    margin:10px;
+    margin-top: 0;
+}
+
+.display-footer:not(:last-of-type){
+    margin-right: 30px;
+}
+
+.display-footer {
+    margin-left: 30px;
+}
+
+.heading-footer {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer-desk {
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.email {
+    color: #f3b29d;
+}
