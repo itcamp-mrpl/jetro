@@ -1,11 +1,8 @@
 .card {
-    display: inline-block;
-    width:220px;
     margin-top: 0;
 }
 
 .card:not(:last-of-type) {
-    margin: 10px;
     margin-left: 0;
 }
 
@@ -35,7 +32,7 @@
     font-size: 1.125em;
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
-    
+
 }
 
 .date-card {
@@ -43,5 +40,5 @@
     margin: 0;
     font-size: 1.125em;
     font-family: 'Bebas Neue', cursive;
-    font-weight: normal; 
+    font-weight: normal;
 }

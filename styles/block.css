@@ -7,6 +7,10 @@
     font-weight: normal;
 }
 
+.block-line {
+    margin-bottom: 10px;
+}
+
 .line {
     float: right;
     padding-left: 10px;
