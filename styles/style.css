@@ -44,10 +44,14 @@ body {
 
 .logo-part:first-of-type {
     color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
 }
 
 .logo-part:last-of-type {
     color: #f3af9d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
 }
 
 .list {
@@ -58,13 +62,15 @@ body {
 .list-item {
     display:inline-block;/*ширина блока регулируется содержимым*/
     text-transform: uppercase;/*все заглавные*/
-    font-weight: 700;/*жирность текста*/
     color: var(--secondary-color);/*наследование текста для неактивного меню*/
     margin-right: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
 }
 
 .list-item.active {
     color: var(--primary-color);
+    font-family: 'Bebas Neue', cursive;
 }
 
 .link {
@@ -73,5 +79,6 @@ body {
 }
 
 .bar-wrapper {
-    /*background-color: var(--primary-light-color);*/
+    background-color: var(--primary-light-color);
+    height: 60px;
 }

@@ -5,7 +5,7 @@
 }
 
 .card:not(:last-of-type) {
-    margin: 15px;
+    margin: 10px;
     margin-left: 0;
 }
 
@@ -27,13 +27,17 @@
 
 .heading-card {
     margin: 0;
-    text-transform: uppercase;
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    
 }
 
 .date-card {
     color: var(--primary-color);
     margin: 0;
-    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal; 
 }
