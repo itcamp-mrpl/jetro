@@ -29,28 +29,26 @@ body {
 }
 
 .logo {
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 400;
     float: left;
     font-size: 0;
     height: 100%;
 }
 
 .logo > .logo-part {
-    font-size: 25px;
     display: inline-block;
     line-height: 78px;
 }
 
 .logo-part:first-of-type {
     color: var(--primary-color);
-    font-family: 'Open Sans', sans-serif;
     font-size: 36px;
 }
 
 .logo-part:last-of-type {
     color: #f3af9d;
-    font-family: 'Open Sans', sans-serif;
     font-size: 36px;
 }
 
