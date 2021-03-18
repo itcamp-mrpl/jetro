@@ -62,10 +62,11 @@ body {
 .list-item {
     display:inline-block;/*ширина блока регулируется содержимым*/
     text-transform: uppercase;/*все заглавные*/
+
     color: var(--secondary-color);/*наследование текста для неактивного меню*/
     margin-right: 10px;
     font-family: 'Bebas Neue', cursive;
-    font-size: 20px;
+    font-size: 1.2em;
 }
 
 .list-item.active {
