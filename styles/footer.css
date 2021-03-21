@@ -1,9 +1,8 @@
 .footer-row {
     background-color: var(--primary-color);
-    margin: 0;
 }
 
-.footer-col {
+.col.footer-col {
     font-size: 0.75em;
     vertical-align: top;
     padding-left: 20px;
