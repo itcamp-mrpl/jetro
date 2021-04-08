@@ -26,13 +26,16 @@ body {
 }
 
 .container {
-    width: calc(100% - 2 * var(--grid-padding));
     margin: auto;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
+    padding: 0 calc(0.5 * var(--grid-padding));
 }
 
 @media (min-width: 576px) {
+    .container {
+        width: calc(100% - 2 * var(--grid-padding));
+        padding: 0;
+    }
+
     .container {
         width: 520px;
     }
