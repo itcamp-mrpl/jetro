@@ -59,7 +59,7 @@
 @media (min-width: 576px) {
     .logo-part:first-of-type {
         color: var(--primary-color);
-        font-size: 2.125em;
+        font-size: 2.125rem;
     }
 
     .logo-part:last-of-type {

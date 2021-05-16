@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
@@ -41,21 +41,75 @@
     </header>
     <div class="bar-wrapper">
         <section class="container">
-            <div class="slider">
-                <div class="slide" style="background-image: url(images/slide1.png)">
+            <div id="slider" class="slider">
+                <div class="jsSlide slide slide-active" data-index="0" style="background-image: url(images/slide1.png)">
                     <div class="slide-desc">
                         <h3 class="slide-title">SLIDE ONE</h3>
                         <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
                     </div>
                 </div>
+                <div class="jsSlide slide" data-index="1" style="background-image: url(images/slide1.png)">
+                    <div class="slide-desc">
+                        <h3 class="slide-title">SLIDE TWO</h3>
+                        <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
+                    </div>
+                </div>
+                <div class="jsSlide slide" data-index="2" style="background-image: url(images/slide1.png)">
+                    <div class="slide-desc">
+                        <h3 class="slide-title">SLIDE THREE</h3>
+                        <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
+                    </div>
+                </div>
+                <div class="jsSlide slide" data-index="3" style="background-image: url(images/slide1.png)">
+                    <div class="slide-desc">
+                        <h3 class="slide-title">SLIDE FOUR</h3>
+                        <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
+                    </div>
+                </div>
+                <div class="jsSlide slide" data-index="4" style="background-image: url(images/slide1.png)">
+                    <div class="slide-desc">
+                        <h3 class="slide-title">SLIDE FIVE</h3>
+                        <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
+                    </div>
+                </div>
+                <div class="jsSlide slide" data-index="5" style="background-image: url(images/slide1.png)">
+                    <div class="slide-desc">
+                        <h3 class="slide-title">SLIDE SIX</h3>
+                        <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil commodi magnam at facere provident iusto officiis id omnis voluptatibus ducimus obcaecati totam exercitationem!</p>
+                    </div>
+                </div>
             </div>
-            <div class="slider-thumbs">
-                <div class="slider-thumb" style="background-image: url(images/thumb-1.png)"></div>
-                <div class="slider-thumb" style="background-image: url(images/thumb-2.png)"></div>
-                <div class="slider-thumb" style="background-image: url(images/thumb-3.png)"></div>
-                <div class="slider-thumb" style="background-image: url(images/thumb-4.png)"></div>
-                <div class="slider-thumb" style="background-image: url(images/thumb-5.png)"></div>
-                <div class="slider-thumb" style="background-image: url(images/thumb-6.png)"></div>
+            <div id="thumbs" class="slider-thumbs">
+                <div
+                    class="jsThumb slider-thumb slider-thumb-active"
+                    style="background-image: url(images/thumb-1.png)"
+                    data-index="0"
+                ></div>
+                <div
+                    class="jsThumb slider-thumb"
+                    style="background-image: url(images/thumb-2.png)"
+                    data-index="1"
+                ></div>
+                <div
+                    class="jsThumb slider-thumb"
+                    style="background-image: url(images/thumb-3.png)"
+                    data-index="2"
+                ></div>
+                <div
+                    class="jsThumb slider-thumb"
+                    style="background-image: url(images/thumb-4.png)"
+                    data-index="3"
+                ></div>
+                <div
+                    class="jsThumb slider-thumb"
+                    style="background-image: url(images/thumb-5.png)"
+                    data-index="4"
+                ></div>
+                <div
+                    class="jsThumb slider-thumb"
+                    style="background-image: url(images/thumb-6.png)"
+                    data-index="5"
+                ></div>
             </div>
             <div class="article-list">
                 <div class="row">
@@ -158,5 +212,6 @@
             </footer>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
